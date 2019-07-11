@@ -1,0 +1,93 @@
+.container {
+	position : relative;
+	width: 100%;
+	margin : auto;
+}
+
+.container .header {
+	background: linear-gradient(to right,rgb(50, 166, 255),rgb(124, 226, 255));
+	padding : 5px;
+	color: white;
+	text-align: center;
+}
+
+.container .nav {
+	background-color : gray;
+	text-align: center;
+	color : white;
+	font-weight: bold;
+	font-family: algerian;
+	font-size: 26px;
+	box-sizing: border-box;
+	margin-top: -27px;
+}
+
+.container .wrap {
+	width : 100%;
+}
+
+.container .wrap .sidebar {
+	width: 20%;
+	background-color: gray;
+	float: left;
+	margin-top: -27px;
+	height: 700px;
+	box-sizing: border-box;
+}
+
+.container .wrap .sidebar a {
+	color: white;
+	text-decoration: none;
+	padding : 5px;
+}
+
+.container .wrap .conten {
+	width :80%;
+	float: right;
+}
+
+.container .wrap .conten h2 {
+	text-align: center;
+}
+
+.container .wrap .conten .about  {
+	width : 40%;
+	margin: 80px auto;
+	font-size: 20px;
+}
+
+.container .footer .insta {
+	width : 50px;
+	height : 50px;
+	background-image: url(img/instagram.jpg);
+	background-size: cover;
+	display: inline-block;
+	border-radius: 50%;
+	text-indent: -9999px;
+	box-sizing: border-box;
+	position: absolute;
+	right: 1150px;
+	bottom : 1px;
+}
+
+.container .footer .insta:hover {
+	width : 50px;
+	height : 50px;
+	background-image: url(img/ig1.jpg);
+	background-size: cover;
+	display: inline-block;
+	border-radius: 50%;
+	text-indent: -9999px;
+}
+
+.container .footer p {
+	text-indent: 30px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.container .footer {
+	clear: both;
+	background: linear-gradient(to right,rgb(50, 166, 255),rgb(124, 226, 255));
+	padding: 1px;
+}
